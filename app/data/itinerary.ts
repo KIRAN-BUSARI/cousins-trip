@@ -12,11 +12,11 @@ import type {
 export const tripMeta: TripMeta = {
   title: "Chikmagaluru & Sakleshpura",
   subtitle: "Coffee hills, misty peaks & Western Ghats adventure",
-  startDate: "16 Oct 2026",
-  endDate: "18 Oct 2026",
+  startDate: "16 Jul 2026",
+  endDate: "18 Jul 2026",
   duration: "3 Days / 2 Nights",
   distance: "Chikmagaluru ↔ Sakleshpura ~52 km (1 hr 15 min drive)",
-  bestSeason: "October–February (post-monsoon greenery, clear skies)",
+  bestSeason: "July (peak monsoon — lush greenery, full waterfalls; carry rain gear)",
 };
 
 export const navLinks: NavLink[] = [
@@ -31,7 +31,7 @@ export const navLinks: NavLink[] = [
 export const itineraryDays: Day[] = [
   {
     dayNumber: 1,
-    date: "Thursday, 16 Oct 2026",
+    date: "Thursday, 16 Jul 2026",
     title: "Arrive in Chikmagaluru — Coffee Country",
     subtitle: "Plantation walks, lake sunset & local flavours",
     location: "Chikmagaluru",
@@ -100,7 +100,7 @@ export const itineraryDays: Day[] = [
             description:
               "Peaceful reservoir 5 km from town. Golden-hour reflections with Baba Budangiri hills in the backdrop — perfect unwind spot.",
             duration: "1 hr",
-            tips: "Arrive by 6:15 PM for best light (Oct sunset ~6:20 PM). No boating; photography-friendly.",
+            tips: "Arrive by 6:45 PM for best light (Jul sunset ~7:00 PM). No boating; photography-friendly.",
           },
         ],
       },
@@ -113,7 +113,7 @@ export const itineraryDays: Day[] = [
   },
   {
     dayNumber: 2,
-    date: "Friday, 17 Oct 2026",
+    date: "Friday, 17 Jul 2026",
     title: "Peaks, Falls & Transfer to Sakleshpura",
     subtitle: "Sunrise at Z Point, Kemmangundi & scenic ghat drive",
     location: "Chikmagaluru → Sakleshpura",
@@ -185,7 +185,7 @@ export const itineraryDays: Day[] = [
             description:
               "Star-shaped hill fort built by Tipu Sultan (~5 km from Sakleshpura). Climb to ramparts for 360° views of ghats and valleys.",
             duration: "2 hrs",
-            tips: "Best at sunset (~6:20 PM). ~450 steps — moderate climb. Free entry; carry water.",
+            tips: "Best at sunset (~7:00 PM). ~450 steps — moderate climb. Free entry; carry water.",
           },
         ],
       },
@@ -198,7 +198,7 @@ export const itineraryDays: Day[] = [
   },
   {
     dayNumber: 3,
-    date: "Saturday, 18 Oct 2026",
+    date: "Saturday, 18 Jul 2026",
     title: "Sakleshpura Highlights & Departure",
     subtitle: "Viewpoints, hidden falls & railway trek",
     location: "Sakleshpura",
@@ -212,7 +212,7 @@ export const itineraryDays: Day[] = [
             description:
               "Drive ~35 km (1 hr) to Bisle Ghat Viewpoint. On clear days, see Kumara Parvatha, Pushpagiri, and Duduma range in a single panorama.",
             duration: "1.5 hrs",
-            tips: "Leave by 5:30 AM. Fog common till 7 AM — Oct-Nov offers best clarity. No entry fee.",
+            tips: "Leave by 5:30 AM. Heavy fog/mist common in July — views may be limited till 8 AM. No entry fee.",
           },
           {
             time: "7:30 AM – 9:30 AM",
@@ -228,7 +228,7 @@ export const itineraryDays: Day[] = [
             description:
               "Drive to Magod (~40 km, 1 hr). Viewpoint overlooks deep forest valley; short descent to Magod Falls (River Bedti).",
             duration: "1.5 hrs",
-            tips: "Combine both if time allows. Falls best after monsoon; Oct flow is moderate but scenic.",
+            tips: "Combine both if time allows. July is peak monsoon — falls are at full flow but paths are slippery.",
           },
         ],
       },
@@ -364,7 +364,7 @@ export const places: Place[] = [
     image:
       "https://images.unsplash.com/photo-1439066615861-d1af04d74000?w=800&q=80",
     icon: "🌅",
-    tips: "Free entry. Best on clear evenings after Oct rains.",
+    tips: "Free entry. Monsoon evenings can be overcast — go if skies look clear.",
   },
   {
     id: "z-point",
@@ -420,7 +420,7 @@ export const places: Place[] = [
     image:
       "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80",
     icon: "👁️",
-    tips: "35 km from Sakleshpura — start early. Fog clears by 7 AM in Oct.",
+    tips: "35 km from Sakleshpura — start early. In July, fog may linger till 8–9 AM.",
   },
   {
     id: "pixie-falls",
@@ -590,7 +590,8 @@ export const packingList: PackingItem[] = [
     category: "Clothing",
     items: [
       "Light layers ( mornings cold, afternoons warm)",
-      "Waterproof jacket / poncho (Oct occasional showers)",
+      "Waterproof jacket / poncho (July monsoon rains)",
+      "Leech socks or salt pouch for forest treks",
       "Trekking shoes with good grip",
       "Extra socks & quick-dry clothes",
       "Cap / hat and sunglasses",
@@ -630,9 +631,9 @@ export const packingList: PackingItem[] = [
 
 export const tips: Tip[] = [
   {
-    title: "Weather in October",
+    title: "Weather in July",
     content:
-      "Daytime 22–28°C, nights 14–18°C. Post-monsoon greenery is lush; occasional afternoon showers. Mornings are misty — perfect for photography.",
+      "Daytime 20–26°C, nights 16–20°C. Peak monsoon — expect daily rain, mist, and full waterfalls. Treks can be slippery; leeches common on forest trails. Check road conditions before ghat drives.",
     icon: "🌦️",
   },
   {

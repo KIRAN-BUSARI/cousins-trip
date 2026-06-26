@@ -1,6 +1,6 @@
 # Chikmagaluru & Sakleshpura Trip Planner
 
-A mobile-responsive Next.js 14 website for a 3-day Western Ghats itinerary covering Chikmagaluru and Sakleshpura, Karnataka (16–18 Oct 2026).
+A mobile-responsive Next.js 14 website for a 3-day Western Ghats itinerary covering Chikmagaluru and Sakleshpura, Karnataka (16–18 Jul 2026).
 
 ## Features
 

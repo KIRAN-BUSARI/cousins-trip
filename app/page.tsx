@@ -187,7 +187,7 @@ export default function Home() {
             <h2 className="section-heading">Where to Stay</h2>
             <p className="section-subheading">
               Homestays and resorts for every budget — book plantation stays
-              early for October.
+              early for July monsoon season.
             </p>
 
             <div className="mt-10 grid gap-8 lg:grid-cols-2">

@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Chikmagaluru & Sakleshpura Trip | 16–18 Oct 2026",
+  title: "Chikmagaluru & Sakleshpura Trip | 16–18 Jul 2026",
   description:
     "3-day travel itinerary for Chikmagaluru and Sakleshpura — coffee plantations, Mullayanagiri, Kemmangundi, Manjarabad Fort, Bisle Viewpoint and more.",
   keywords: [
