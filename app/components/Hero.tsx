@@ -52,17 +52,23 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center"
+          className="mx-auto mt-8 grid w-full max-w-2xl grid-cols-1 gap-4 sm:grid-cols-2"
         >
-          <div className="rounded-full bg-white/10 px-6 py-3 backdrop-blur-sm">
-            <span className="text-sm text-forest-200">Dates</span>
-            <p className="font-semibold text-white">
+          <div className="flex min-h-[5.5rem] flex-col items-center justify-center rounded-2xl border border-white/10 bg-white/10 px-6 py-4 text-center backdrop-blur-sm">
+            <span className="mb-1.5 block text-sm font-medium text-forest-200">
+              Dates
+            </span>
+            <p className="font-semibold leading-snug text-white">
               {tripMeta.startDate} – {tripMeta.endDate}
             </p>
           </div>
-          <div className="rounded-full bg-white/10 px-6 py-3 backdrop-blur-sm">
-            <span className="text-sm text-forest-200">Best Season</span>
-            <p className="font-semibold text-white">{tripMeta.bestSeason}</p>
+          <div className="flex min-h-[5.5rem] flex-col items-center justify-center rounded-2xl border border-white/10 bg-white/10 px-6 py-4 text-center backdrop-blur-sm">
+            <span className="mb-1.5 block text-sm font-medium text-forest-200">
+              Best Season
+            </span>
+            <p className="font-semibold leading-snug text-white">
+              {tripMeta.bestSeason}
+            </p>
           </div>
         </motion.div>
 

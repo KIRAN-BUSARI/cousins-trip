@@ -16,7 +16,7 @@ export const tripMeta: TripMeta = {
   endDate: "18 Jul 2026",
   duration: "3 Days / 2 Nights",
   distance: "Chikmagaluru ↔ Sakleshpura ~52 km (1 hr 15 min drive)",
-  bestSeason: "July (peak monsoon — lush greenery, full waterfalls; carry rain gear)",
+  bestSeason: "July · Peak monsoon — lush hills & full waterfalls",
 };
 
 export const navLinks: NavLink[] = [
