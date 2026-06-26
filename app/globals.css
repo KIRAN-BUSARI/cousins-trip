@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-forest-50 text-mist-900 antialiased;
+  }
+
+  ::selection {
+    @apply bg-forest-300 text-forest-950;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24;
+  }
+
+  .section-heading {
+    @apply font-display text-3xl font-bold text-forest-900 sm:text-4xl;
+  }
+
+  .section-subheading {
+    @apply mt-3 max-w-2xl text-base text-mist-600 sm:text-lg;
+  }
+}
+
+/* Print-friendly itinerary */
+@media print {
+  @page {
+    margin: 1.5cm;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt;
+  }
+
+  header,
+  footer,
+  #hero,
+  #places,
+  #food,
+  #stays,
+  #packing,
+  #tips,
+  .no-print {
+    display: none !important;
+  }
+
+  #itinerary {
+    padding: 0 !important;
+  }
+
+  #itinerary .section-heading,
+  #itinerary .section-subheading {
+    color: black !important;
+  }
+
+  .itinerary-day {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+    margin-bottom: 1rem;
+  }
+
+  .itinerary-day button svg {
+    display: none;
+  }
+
+  .itinerary-day .grid-rows-\[0fr\] {
+    grid-template-rows: 1fr !important;
+    opacity: 1 !important;
+  }
+
+  .itinerary-day .overflow-hidden {
+    overflow: visible !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+}
+
+.print-only {
+  display: none;
+}
